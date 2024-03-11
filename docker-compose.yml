@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hello-world-app:
+    image: hello-world-app:latest
+    ports:
+      -8000:5000
