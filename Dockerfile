@@ -13,4 +13,6 @@ COPY . /usr/src/app
 EXPOSE 5000
 
 # Run hello_world.py when the container launches
-CMD ["python", "./hello_world.py"]
+CMD ["python", "./hello_world.py" , "--host", "0.0.0.0", "--port", "5000"]
+
+
